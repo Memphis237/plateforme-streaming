@@ -102,7 +102,7 @@ npm install
    - Remplissez le formulaire :
      - **Type of use** : Personal (Personnel)
      - **Application Name** : "Ma Plateforme Streaming" (ou ce que vous voulez)
-     - **Application URL** : `http://localhost` (pour le développement local)
+     - **Application URL** : `http://localhost:5173` (pour le développement local)
      - **Application Summary** : "Application de streaming personnelle pour découvrir des films et séries"
 
 4. **Récupérer votre clé API** :
@@ -120,13 +120,13 @@ npm install
    Ouvrez le fichier `.env` avec un éditeur de texte et configurez :
    ```env
    VITE_TMDB_API_KEY=votre_cle_api_tmdb_ici
-   VITE_API_BASE_URL=
+   VITE_API_BASE_URL=http://localhost:5173
    ```
 
    **Exemple** :
    ```env
    VITE_TMDB_API_KEY=8b8fdjkdj57862138408787a999v86fd
-   VITE_API_BASE_URL=
+   VITE_API_BASE_URL=http://localhost:5173
    ```
 
    ⚠️ **Important** : 
